@@ -267,6 +267,7 @@ button {
     z-index: 999;
     background: #fff;
     transition: top .25s;
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.07);
 }
 
 .header__inner {
@@ -343,9 +344,6 @@ button {
 }
 
 .header__cta__btn:hover {
-    background: #fff;
-    outline: 3px solid var(--secondary-color);
-    color: var(--secondary-color);
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
