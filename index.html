@@ -96,6 +96,10 @@
 
         <!-- Styles CSS -->
         <link rel="stylesheet" href="./assets/css/styles.css" />
+        <link
+            href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+            rel="stylesheet"
+        />
     </head>
     <body>
         <!-- Header -->
@@ -469,6 +473,7 @@
                                     src="./assets/img/work-1.png"
                                     alt="How It Works CeloBank"
                                     class="work__media__img"
+                                    data-aos="zoom-in"
                                 />
 
                                 <img
@@ -598,7 +603,10 @@
 
                         <!-- Payment card -->
                         <div class="payment__card--main">
-                            <div class="payment__card card">
+                            <div
+                                class="payment__card card"
+                                data-aos="zoom-in-left"
+                            >
                                 <!-- Card title -->
                                 <div class="payment__card__wrap card__wrap">
                                     <p class="payment__card__title card__title">
@@ -701,6 +709,7 @@
                                     src="./assets/img/transfer-1.png"
                                     alt="Transfer and Deposite Your Money Anytime"
                                     class="transfer__media__img"
+                                    data-aos="fade-left"
                                 />
                                 <img
                                     src="./assets/img/transfer-2.svg"
@@ -819,7 +828,7 @@
                         <!-- Client comment -->
                         <div class="client__comment">
                             <!-- Comment 1 -->
-                            <div class="client__comment__wrap">
+                            <div class="client__comment__wrap" data-aos="fade-left">
                                 <p class="client__comment__desc">
                                     Fantastic platform for online banking. The
                                     best online banking platform I have used.
@@ -844,7 +853,7 @@
                             </div>
 
                             <!-- Comment 2 -->
-                            <div class="client__comment__wrap">
+                            <div class="client__comment__wrap" data-aos="fade-right">
                                 <p class="client__comment__desc">
                                     Fantastic platform for online banking. The
                                     best online banking platform I have used.
@@ -1010,7 +1019,7 @@
                         <!-- Blog item -->
                         <div class="blog__list">
                             <!-- Item 1 -->
-                            <article class="blog__item">
+                            <article class="blog__item" data-aos="flip-down">
                                 <a href="" class="blog__item__cta">
                                     <figure class="blog__item__media">
                                         <img
@@ -1035,7 +1044,7 @@
                             </article>
 
                             <!-- Item 2 -->
-                            <article class="blog__item">
+                            <article class="blog__item" data-aos="flip-down">
                                 <a href="" class="blog__item__cta">
                                     <figure class="blog__item__media">
                                         <img
@@ -1060,7 +1069,7 @@
                             </article>
 
                             <!-- Item 3 -->
-                            <article class="blog__item">
+                            <article class="blog__item" data-aos="flip-up">
                                 <a href="" class="blog__item__cta">
                                     <figure class="blog__item__media">
                                         <img
@@ -1085,7 +1094,7 @@
                             </article>
 
                             <!-- Item 4 -->
-                            <article class="blog__item">
+                            <article class="blog__item" data-aos="flip-up">
                                 <a href="" class="blog__item__cta">
                                     <figure class="blog__item__media">
                                         <img
@@ -1336,6 +1345,12 @@
                 <p class="footer__copyright__text">
                     © 2020 Ligft Media All rights reserved.
                 </p>
+            </div>
         </footer>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>
